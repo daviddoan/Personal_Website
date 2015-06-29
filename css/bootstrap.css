@@ -245,7 +245,7 @@ th {
   .navbar {
     display: none;
   }
-  .btn > .caret,
+  .b > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
@@ -1132,7 +1132,7 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
-.img-thumbnail {
+.-r-thumbnail {
   display: inline-block;
   max-width: 100%;
   height: auto;
