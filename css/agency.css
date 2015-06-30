@@ -11,6 +11,7 @@ body {
 
 .text-muted {
     color: #777;
+    font-size: 14px;
 }
 
 .text-primary {
@@ -70,6 +71,7 @@ h6 {
 }
 
 .btn-primary {
+    padding: 10px 25px;
     border-color: #34559D;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -83,9 +85,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #34559D;
+    border-color: #34559D;
+    color: #34559D;
+    background-color: #fff;
 }
 
 .btn-primary:active,
@@ -350,8 +352,8 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
-    text-transform: none;
+    margin: 20px 0;
+    text-transform: uppercase;
 }
 
 #portfolio .portfolio-item {
