@@ -9,6 +9,57 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
+.soc-item {
+    text-align: center;
+    background-color: #222;
+    width: 33%;
+    padding-top:200px;
+    height:0;
+    display: inline-block;
+    float: left;
+}
+
+.facebook {
+    background-image: url(../img/portfolio/fb.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.facebook:hover{
+     background-color: #3B5998;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
+}
+
+.twitter {
+    background-image: url(../img/portfolio/tw.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.twitter:hover{
+    background-color: #4099FF;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.linkedin {
+    background-image: url(../img/portfolio/linkedin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.linkedin:hover{
+    background-color:  #007bb6;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
 .text-muted {
     color: #777;
     font-size: 14px;
@@ -121,7 +172,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 15px 35px;
+    padding: 14px 80px;
     border-radius: 3px;
     border-color: #34559D;
     text-transform: uppercase;
@@ -285,7 +336,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 75px;
+    margin-bottom: 40px;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 100;
@@ -308,7 +359,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 75px;
+        margin-bottom: 40px;
         font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 20px;
         font-weight: 100;
