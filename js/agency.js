@@ -23,4 +23,30 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
-});
+})
+
+//Close video on close
+
+$('#portfolioModal1').on('hidden.bs.modal', function (e) {
+	$('#portfolioModal1 iframe').attr("src", $("#portfolioModal1 iframe").attr("src"));
+})
+
+$('#portfolioModal2').on('hidden.bs.modal', function (e) {
+	$('#portfolioModal2 iframe').attr("src", $("#portfolioModal2 iframe").attr("src"));
+})
+
+$('#portfolioModal3').on('hidden.bs.modal', function (e) {
+	$('#portfolioModal3 iframe').attr("src", $("#portfolioModal3 iframe").attr("src"));
+})
+
+$('#portfolioModal4').on('hidden.bs.modal', function (e) {
+	$('#portfolioModal4 iframe').attr("src", $("#portfolioModal4 iframe").attr("src"));
+})
+
+$('#portfolioModal5').on('hidden.bs.modal', function (e) {
+	$('#portfolioModal5 iframe').attr("src", $("#portfolioModal5 iframe").attr("src"));
+})
+
+$('#portfolioModal6').on('hidden.bs.modal', function (e) {
+	$('#portfolioModal6 iframe').attr("src", $("#portfolioModal6 iframe").attr("src"));
+})

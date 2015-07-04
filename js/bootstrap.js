@@ -1017,6 +1017,8 @@ if (typeof jQuery === 'undefined') {
 
     this.$element.trigger(e)
 
+    this.
+    
     if (!this.isShown || e.isDefaultPrevented()) return
 
     this.isShown = false
