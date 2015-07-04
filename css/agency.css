@@ -4,6 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -34,6 +47,14 @@ body {
 
 }
 
+.facebook:active{
+     background-color: #3B5998;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
+}
+
 .twitter {
     background-image: url(../img/portfolio/tw.png);
     background-position: center center;
@@ -47,6 +68,13 @@ body {
     transition: all ease .5s;
 }
 
+.twitter:active{
+    background-color: #4099FF;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
 .linkedin {
     background-image: url(../img/portfolio/linkedin.png);
     background-position: center center;
@@ -54,6 +82,14 @@ body {
 }
 
 .linkedin:hover{
+    background-color:  #007bb6;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+
+.linkedin:active{
     background-color:  #007bb6;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -322,19 +358,6 @@ fieldset[disabled] .btn-xl.active {
      -webkit-transition: all .3s;
      -moz-transition: all .3s;
     transition: all .3s;
-}
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 header .intro-text {
