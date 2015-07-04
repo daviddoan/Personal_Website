@@ -323,6 +323,7 @@ fieldset[disabled] .btn-xl.active {
      -moz-transition: all .3s;
     transition: all .3s;
 }
+
 header {
     text-align: center;
     color: #fff;
