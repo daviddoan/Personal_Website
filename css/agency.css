@@ -265,6 +265,15 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+.navbar-default img{
+    margin: 5px;
+    height: 40px;
+     -webkit-transition: all .3s;
+     -moz-transition: all .3s;
+    transition: all .3s;
+
+}
+
 .navbar-default .navbar-brand {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #34559D;
@@ -351,10 +360,20 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default img{
+        margin:5px;
+        height: 70px;
+         -webkit-transition: all .3s;
+         -moz-transition: all .3s;
+        transition: all .3s;
+
+    }
 }
 
 .navbar-shrink img{
-    height: 50px;
+    margin: 5px;
+    height: 40px;
      -webkit-transition: all .3s;
      -moz-transition: all .3s;
     transition: all .3s;
