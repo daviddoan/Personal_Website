@@ -42,13 +42,6 @@ $('#portfolioModal4').on('show.bs.modal', function (e) {
     $('#portfolioModal4 iframe').attr("src", "https://www.youtube.com/embed/KcwBB0xHAfU?vq=hd720");
 })
 
-$('#portfolioModal5').on('show.bs.modal', function (e) {
-    $('#portfolioModal5 iframe').attr("src", "");
-})
-
-$('#portfolioModal6').on('show.bs.modal', function (e) {
-    $('#portfolioModal6 iframe').attr("src", "");
-})
 
 //Close video on close
 
@@ -66,12 +59,4 @@ $('#portfolioModal3').on('hide.bs.modal', function (e) {
 
 $('#portfolioModal4').on('hide.bs.modal', function (e) {
 	$('#portfolioModal4 iframe').attr("src", "");
-})
-
-$('#portfolioModal5').on('hide.bs.modal', function (e) {
-	$('#portfolioModal5 iframe').attr("src", "");
-})
-
-$('#portfolioModal6').on('hide.bs.modal', function (e) {
-	$('#portfolioModal6 iframe').attr("src", "");
 })
