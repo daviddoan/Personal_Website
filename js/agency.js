@@ -26,37 +26,37 @@ $('.navbar-collapse ul li a').click(function() {
 })
 
 //Open video on open
-$('#portfolioModal1').on('show.bs.modal', function (e) {
-    $('#portfolioModal1 iframe').attr("src", "https://player.vimeo.com/video/98880732?color=ffffff");
+$('#portfolioModalTRA').on('show.bs.modal', function (e) {
+    $('#portfolioModalTRA iframe').attr("src", "https://player.vimeo.com/video/98880732?color=ffffff");
 })
 
-$('#portfolioModal2').on('show.bs.modal', function (e) {
-    $('#portfolioModal2 iframe').attr("src", "https://www.youtube.com/embed/jX8hcrAGZtY");
+$('#portfolioModalWED').on('show.bs.modal', function (e) {
+    $('#portfolioModalWED iframe').attr("src", "https://www.youtube.com/embed/jX8hcrAGZtY");
 })
 
-$('#portfolioModal3').on('show.bs.modal', function (e) {
-    $('#portfolioModal3 iframe').attr("src", "https://www.youtube.com/embed/-0AhpfKFOEM?vq=hd720");
+$('#portfolioModalINT').on('show.bs.modal', function (e) {
+    $('#portfolioModalINT iframe').attr("src", "https://www.youtube.com/embed/-0AhpfKFOEM?vq=hd720");
 })
 
-$('#portfolioModal4').on('show.bs.modal', function (e) {
-    $('#portfolioModal4 iframe').attr("src", "https://www.youtube.com/embed/KcwBB0xHAfU?vq=hd720");
+$('#portfolioModalMER').on('show.bs.modal', function (e) {
+    $('#portfolioModalMER iframe').attr("src", "https://www.youtube.com/embed/KcwBB0xHAfU?vq=hd720");
 })
 
 
 //Close video on close
 
-$('#portfolioModal1').on('hide.bs.modal', function (e) {
-	$('#portfolioModal1 iframe').attr("src", "");
+$('#portfolioModalTRA').on('hide.bs.modal', function (e) {
+	$('#portfolioModalTRA iframe').attr("src", "");
 })
 
-$('#portfolioModal2').on('hide.bs.modal', function (e) {
-	$('#portfolioModal2 iframe').attr("src", "");
+$('#portfolioModalWED').on('hide.bs.modal', function (e) {
+	$('#portfolioModalWED iframe').attr("src", "");
 })
 
-$('#portfolioModal3').on('hide.bs.modal', function (e) {
-	$('#portfolioModal3 iframe').attr("src", "");
+$('#portfolioModalINT').on('hide.bs.modal', function (e) {
+	$('#portfolioModalINT iframe').attr("src", "");
 })
 
-$('#portfolioModal4').on('hide.bs.modal', function (e) {
-	$('#portfolioModal4 iframe').attr("src", "");
+$('#portfolioModalMER').on('hide.bs.modal', function (e) {
+	$('#portfolioModalMER iframe').attr("src", "");
 })
