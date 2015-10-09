@@ -8,8 +8,8 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 
+}
 
 .soc-item {
     text-align: center;
@@ -390,7 +390,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:1000px){
     header{
-        height: 
+        height: 2000px;
     }
 
 }
@@ -969,14 +969,9 @@ ul.social-buttons li a:active {
     height: 100%;
 }
 
-::-moz-selection {
-    text-shadow: none;
-    background: #ced8ef;
-}
-
 ::selection {
     text-shadow: none;
-    background: #ced8ef;
+    background: #ced8ef !important;
 }
 
 img::selection {
