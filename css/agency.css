@@ -388,17 +388,14 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:1000px){
+@media(min-width:1500px){
     header{
-        height: 2000px;
+        height:900px;
     }
-
 }
 
 @media(min-width:768px) {
-    header{
-        height: 100%;
-    }
+ 
     header .intro-text {
         padding-top: 150px;
         padding-bottom: 125px;
@@ -971,7 +968,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #ced8ef !important;
+    background: #ced8ef;
 }
 
 img::selection {
