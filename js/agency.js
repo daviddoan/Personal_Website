@@ -14,6 +14,19 @@ $(function() {
         event.preventDefault();
     });
 });
+// loading screen
+
+$(document).ready(function () {
+    $('div.intro-text').fadeIn(1000);
+});
+
+$(document).ready(function () {
+    $('nav').fadeIn(2000);
+});
+
+$(document).ready(function () {
+    $('div.loader').fadeOut(200);
+});
 
 //Hoverover image
 
