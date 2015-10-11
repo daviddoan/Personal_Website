@@ -15,6 +15,16 @@ $(function() {
     });
 });
 
+//Hoverover image
+
+$('img#profile').mouseenter(function(){
+    $('img#profile').attr("src","img/pie.gif");
+})
+
+$('img#profile').mouseleave(function(){
+    $('img#profile').attr("src","img/profile.jpg");
+})
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'

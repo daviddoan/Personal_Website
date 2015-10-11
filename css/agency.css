@@ -11,77 +11,17 @@ body {
 
 }
 
-.soc-item {
+header {
     text-align: center;
-    background-color: #222;
-    width: 33%;
-    padding-top:200px;
-    height:0;
-    display: inline-block;
-    float: left;
-}
-    
-.facebook {
-    background-image: url(../img/portfolio/fb.png);
+    color: #fff ;
+    background-attachment: scroll;
+    background-image: url(https://unsplash.it/2160/1216?image=681);
     background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.facebook:hover{
-     background-color: #3B5998;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-
-}
-
-.facebook:active{
-     background-color: #3B5998;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-
-}
-
-.twitter {
-    background-image: url(../img/portfolio/tw.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.twitter:hover{
-    background-color: #4099FF;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-.twitter:active{
-    background-color: #4099FF;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-.linkedin {
-    background-image: url(../img/portfolio/linkedin.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.linkedin:hover{
-    background-color:  #007bb6;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-
-.linkedin:active{
-    background-color:  #007bb6;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .text-muted {
@@ -737,6 +677,9 @@ section h3.section-subheading {
     border: 4px solid #fff;
 }
 
+.team-member img:hover {
+}
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -964,6 +907,79 @@ ul.social-buttons li a:active {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.soc-item {
+    text-align: center;
+    background-color: #222;
+    width: 33%;
+    padding-top:200px;
+    height:0;
+    display: inline-block;
+    float: left;
+}
+    
+.facebook {
+    background-image: url(../img/portfolio/fb.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.facebook:hover{
+     background-color: #3B5998;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
+}
+
+.facebook:active{
+     background-color: #3B5998;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
+}
+
+.twitter {
+    background-image: url(../img/portfolio/tw.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.twitter:hover{
+    background-color: #4099FF;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.twitter:active{
+    background-color: #4099FF;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.linkedin {
+    background-image: url(../img/portfolio/linkedin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.linkedin:hover{
+    background-color:  #007bb6;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+
+.linkedin:active{
+    background-color:  #007bb6;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
 }
 
 ::selection {
