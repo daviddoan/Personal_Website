@@ -20,8 +20,8 @@ $(document).ready(function () {
     $('nav').fadeIn(2000);
 });
 
-$(document).ready(function () {
-    $('div.loader').fadeOut(200);
+$(header).ready(function () {
+    $('div.loader').fadeOut(600);
 });
 
 //Hoverover image
