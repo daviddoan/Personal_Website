@@ -79,3 +79,6 @@ $('#portfolioModalINT').on('hide.bs.modal', function (e) {
 $('#portfolioModalMER').on('hide.bs.modal', function (e) {
 	$('#portfolioModalMER iframe').attr("src", "");
 })
+
+//Loadcontent on open
+
