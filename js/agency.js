@@ -16,13 +16,19 @@ $(function() {
 });
 // loading screen
 
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) { // escape key maps to keycode `27`
+        $('.modal').modal('hide');
+    }
+});
+
 $(document).ready(function () {
     $('nav').fadeIn(2000);
 });
 
-$(header).ready(function () {
-    $('div.loader').fadeOut(600);
-});
+// $(header).ready(function () {
+//     $('div.loader').fadeOut(600);
+// });
 
 //Hoverover image
 
@@ -46,7 +52,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 //Open video on open
 $('#portfolioModalTRA').on('show.bs.modal', function (e) {
-    $('#portfolioModalTRA iframe').attr("src", "https://player.vimeo.com/video/98880732?color=ffffff");
+    $('#portfolioModalTRA  iframe').attr("src", "https://player.vimeo.com/video/98880732?color=ffffff");
 })
 
 $('#portfolioModalWED').on('show.bs.modal', function (e) {
