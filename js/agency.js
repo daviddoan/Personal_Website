@@ -5,6 +5,9 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+// CUSTOM FUNCTIONS
+
 $(function(){
   $("#modalHTML").load("modal.html");
 });
@@ -29,10 +32,6 @@ $(document).keyup(function(e) {
 $(document).ready(function () {
     $('nav').fadeIn(2000);
 });
-
-// $(header).ready(function () {
-//     $('div.loader').fadeOut(600);
-// });
 
 //Hoverover image
 
