@@ -5,6 +5,10 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function(){
+  $("#modalHTML").load("modal.html");
+});
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -87,4 +91,3 @@ $('#portfolioModalMER').on('hide.bs.modal', function (e) {
 })
 
 //Loadcontent on open
-
